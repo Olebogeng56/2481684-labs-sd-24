@@ -1,78 +1,19 @@
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-
 <head>
     <meta charset="utf-8" />
-    <title>Software Design Lab</title>
-    <style>
-        li {
-            display: inline;
-            padding-left: 1px;
-            padding-right: 1px float:right;
-        }
-
-        .navbar {
-            background-color: black;
-            margin-top: 0px;
-            padding: 1px;
-            color: white;
-        }
-
-
-        .flex-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            align-items: flex-start;
-        }
-    </style>
+    <title></title>
+    <script type="module" src="./Script1.js"></script>
+    <link rel="stylesheet" href="StyleSheet.css">
 </head>
-
 <body>
-    <!-- Navigation bar--->
+    <header>
+        <h1 style ="font-family: Arial Rounded MT"><b>Country Information</b></h1>
+    </header>
 
-    <nav class="navbar">
-        <ul>
-            <li style="text-align:left; font-size:25px;"><b>Welcome to Software Design Website<b></li>
-
-            <li style="float:right; font-size:15px; padding:4px; "><a href="#About Us">About Us</a></li>
-            <li style="float:right;font-size:15px; padding:4px;"><a href="#Services">Services</a></li>
-            <li style="float:right; font-size:15px; padding:4px;"><a href="ContactUS">Contact Us</a> </li>
-
-        </ul>
-
-    </nav>
-    <section style="text-align:center">
-        <h2><b>About Us</b></h2>
-
-        <p>We are a company dedicated to providing excellent service to our customers</p>
-        <img style="width: 600px; height:400px;" src="https://wallpapercave.com/wp/wp6763577.jpg" alt="A coding screen">
-    </section>
-
-    <h2 style="text-align:center">Our Services</h2>
-
-    <section style=" text-align:center; border-color:grey; border-width: 2px; border-style:solid;" class="flex-container">
-
-            <figure style="border-color: grey; border-width: 2px; border-style: solid;">
-                <h3>Web Development</h3>
-                <p>We specialize in creating responsive and user friendly websites.</p>
-                <img style="width: 600px; height:400px;" src="https://th.bing.com/th/id/OIP.2VK-9jfpZsWnxts56MC9dQHaGv?rs=1&pid=ImgDetMain" alt="Picture of a website">
-            </figure>
-            <figure style="border-color: grey; border-width: 2px; border-style: solid;">
-                <h3>Web Design</h3>
-                <p>Our talented designers can bring your ideas to life with stunning visuals.</p>
-                <img style="width: 600px; height:400px;" src="https://cdn.idevie.com/wp-content/uploads/2021/03/best_award_winning_website.jpg" alt=" Picture of design">
-            </figure>
-
-    </section>
-
-
-    <footer style="background-color:black; padding-block:5px; color:white; font-family:Arial; text-align:center;">
-        <p>
-            2024 The Lucky Company. All Rights Reserved.
-        </p>
-    </footer>
+    <input type="text" name="country" placeholder="Enter country" required>
+    <button type="submit">Get Country Info</button>
+    <h2 style ="font-family: Arial Rounded MT">Country Name</h2>
 </body>
-
-</html>
+</
